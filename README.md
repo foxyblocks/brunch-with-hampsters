@@ -1,4 +1,7 @@
-# Brunch with Hampsters (coffee, stylus, and handlebars of course)
+# Brunch with Hampsters
+
+![](http://cl.ly/image/3c3F2W3E3a1I/url.png)
+
 
 
 This is the [Brunch](http://brunch.io/) app skeleton that I always wanted.
@@ -10,7 +13,7 @@ And now I have it! Muwahahaah.
 - [Stylus](http://learnboost.github.com/stylus/)
 - [Handlebars](http://handlebarsjs.com/)
 
-## Features
+## Bonus Features
 
 - [Swag v0.2.1](https://github.com/elving/swag)
 - [Font Awesome v3.0](https://github.com/FortAwesome/Font-Awesome)
@@ -63,7 +66,7 @@ Includes mocha for testing.
 
 `./bin/test` will run all the tests from from the command line using phantom-js.
 
-If you want to run the tests in the browser you can `brunch w -s` and then
+If you want to run the tests in the browser you can run `brunch w -s` and then
 visit [localhost:3333/test/](http://localhost:3333/test/). This works with
 autoreload.
 
