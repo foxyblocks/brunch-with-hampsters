@@ -1,0 +1,8 @@
+{{#camelize}}{{name}}{{/camelize}}Controller = require 'controllers/{{name}}'
+
+#should be treated as an integration test (probably)
+describe 'Controllers', ->
+  describe '{{#camelize}}{{name}}{{/camelize}}Controller', ->
+    it.skip 'PENDING tests something or gets deleted', ->
+      Ember.run ->
+        controller = {{#camelize}}{{name}}{{/camelize}}.create()
