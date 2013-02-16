@@ -79,6 +79,15 @@
   globals.require.brunch = true;
 })();
 
+window.require.register("test/suite-test", function(exports, require, module) {
+  
+  describe('Test Suite', function() {
+    return it('should work', function() {
+      return expect(1 + 1).to.eq(2);
+    });
+  });
+  
+});
 window.require.register("test/test-helpers", function(exports, require, module) {
   var chai, sinonChai;
 
@@ -94,13 +103,4 @@ window.require.register("test/test-helpers", function(exports, require, module) 
   };
   
 });
-window.require.register("test/views/suite-test", function(exports, require, module) {
-  
-  describe('Test Suite', function() {
-    return it('should work', function() {
-      return expect(1 + 1).to.eq(2);
-    });
-  });
-  
-});
-window.require('test/views/suite-test');
+window.require('test/suite-test');

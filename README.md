@@ -57,6 +57,15 @@ app/controllers/corn.coffee
     module.exports = CornController = Em.ObjectController.extend
       content: null
 
+##Testing
+
+Includes mocha for testing.
+
+`./bin/test` will run all the tests from from the command line using phantom-js.
+
+If you want to run the tests in the browser you can `brunch w -s` and then
+visit [localhost:3333/test/](http://localhost:3333/test/). This works with
+autoreload.
 
 ## Kudos
 This begun started as a frankenmoster of my favorite parts of
