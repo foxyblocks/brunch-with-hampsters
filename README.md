@@ -2,9 +2,7 @@
 
 ![](http://cl.ly/image/3c3F2W3E3a1I/url.png)
 
-
-
-This is the [Brunch](http://brunch.io/) app skeleton that I always wanted.
+This is the Ember.js [Brunch](http://brunch.io/) app skeleton that I always wanted.
 And now I have it! Muwahahaah.
 
 ## Languages
