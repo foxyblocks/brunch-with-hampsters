@@ -108,6 +108,3 @@ window.require.register("initialize", function(exports, require, module) {
 window.require.register("templates/application", function(exports, require, module) {
   module.exports = Ember.TEMPLATES[module.id.replace('null','')] = Ember.Handlebars.compile("{{outlet}}\n");
 });
-window.require.register("templates/index", function(exports, require, module) {
-  module.exports = Ember.TEMPLATES[module.id.replace('null','')] = Ember.Handlebars.compile("");
-});
