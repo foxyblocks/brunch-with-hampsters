@@ -1,4 +1,3 @@
-
 window.App = require 'app'
 
 #//////////////////////////////////
@@ -7,6 +6,17 @@ window.App = require 'app'
 
 require 'templates/application'
 require 'templates/index'
+require 'templates/one'
+# templates = [
+#   'index'
+#   'application'
+# ]
+#
+# for name in templates
+#   Ember.TEMPLATES[name] = require name
+#
+App.Router.map ->
+  @resource('one')
 
 #//////////////////////////////////
 #// Models
@@ -36,14 +46,10 @@ require 'templates/index'
 #// Store
 #/////////////////////////////////
 
-App.Store = DS.Store.extend
-  revision: 11
+# App.Store = DS.Store.extend
+#   revision: 11
 
 #/////////////////////////////////
 #// Router
 #/////////////////////////////////
 
-App.Router.map ->
-  @route 'index', path: '/'
-
-App.initialize()

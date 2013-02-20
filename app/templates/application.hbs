@@ -1,1 +1,24 @@
-{{outlet}}
+<div class="container-fluid">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <a class="brand" href="#">Title</a>
+      <ul class="nav">
+        <li class="active">
+          {{#linkTo 'index'}}
+            Home
+          {{/linkTo}}
+        </li>
+        <li>
+          {{#linkTo 'one'}}
+            One
+          {{/linkTo}}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <p>
+    Find me in <code>templates/application.emblem</code>
+  </p>
+  {{{ outlet }}}
+</div>

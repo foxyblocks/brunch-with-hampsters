@@ -18,11 +18,11 @@ exports.config =
         # Files in `vendor` directories are compiled before other files
         # even if they aren't specified in order.
         before: [
-          'vendor/scripts/console-helper.js',
-          'vendor/scripts/jquery-1.9.0.min.js',
-          'vendor/scripts/handlebars-1.0.rc.2.js',
-          'vendor/scripts/ember-latest.js',
-          'vendor/scripts/ember-data-latest.js',
+          'vendor/scripts/console-helper.js'
+          'vendor/scripts/jquery-1.9.0.min.js'
+          'vendor/scripts/handlebars-1.0.rc.3.js'
+          'vendor/scripts/ember-latest.js'
+          'vendor/scripts/ember-data-latest.js'
           'vendor/scripts/bootstrap.js'
         ]
 
@@ -35,4 +35,10 @@ exports.config =
         after: ['vendor/styles/helpers.css']
 
     templates:
-      joinTo: 'javascripts/app.js'
+      precompile: true
+      defaultExtension: 'hbs'
+      joinTo: 'javascripts/app.js' : /^app/
+      paths:
+        jquery: 'vendor/scripts/jquery-1.9.0.min.js'
+        handlebars: 'vendor/scripts/handlebars-1.0.rc.3.js'
+        ember: 'vendor/scripts/ember-latest.js'
