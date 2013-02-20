@@ -12,5 +12,5 @@
           a Link
 
   p
-    | Find me in <code>templates/application.emblem</code>
-    | {{{ outlet }}}
+    | Find me in <code>app/templates/application.emblem</code>
+    = outlet
