@@ -1,0 +1,16 @@
+/! application
+.container-fluid
+  .navbar
+    .navbar-inner
+      a.brand Hampsters
+      ul.nav
+        li.active
+          a Home
+        li
+          / linkTo "one"
+        li
+          a Link
+
+  p
+    | Find me in <code>templates/application.emblem</code>
+    | {{{ outlet }}}

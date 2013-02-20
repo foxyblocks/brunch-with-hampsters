@@ -36,9 +36,4 @@ exports.config =
 
     templates:
       precompile: true
-      defaultExtension: 'hbs'
       joinTo: 'javascripts/app.js' : /^app/
-      paths:
-        jquery: 'vendor/scripts/jquery-1.9.0.min.js'
-        handlebars: 'vendor/scripts/handlebars-1.0.rc.3.js'
-        ember: 'vendor/scripts/ember-latest.js'

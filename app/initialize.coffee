@@ -4,19 +4,8 @@ window.App = require 'app'
 #// Templates
 #//////////////////////////////////
 
-require 'templates/application'
-require 'templates/index'
-require 'templates/one'
-# templates = [
-#   'index'
-#   'application'
-# ]
-#
-# for name in templates
-#   Ember.TEMPLATES[name] = require name
-#
-App.Router.map ->
-  @resource('one')
+Ember.TEMPLATES['index'] = require 'templates/index'
+Ember.TEMPLATES['application'] = require 'templates/application'
 
 #//////////////////////////////////
 #// Models
