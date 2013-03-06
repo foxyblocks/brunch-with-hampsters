@@ -4,8 +4,11 @@ window.App = require 'app'
 #// Templates
 #//////////////////////////////////
 
-Ember.TEMPLATES['index'] = require 'templates/index'
-Ember.TEMPLATES['application'] = require 'templates/application'
+require 'templates/application'
+require 'templates/index'
+require 'templates/about'
+require 'templates/_well'
+
 
 #//////////////////////////////////
 #// Models
@@ -42,3 +45,6 @@ Ember.TEMPLATES['application'] = require 'templates/application'
 #// Router
 #/////////////////////////////////
 
+App.Router.map ->
+  @route "about", path: "/about"
+  @route "index", path: "/"

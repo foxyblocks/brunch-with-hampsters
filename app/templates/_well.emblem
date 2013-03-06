@@ -1,0 +1,5 @@
+.well
+  h3 Partials
+  p This is a partial.
+  p Find me in <code>app/templates/_well.emblem</code>
+

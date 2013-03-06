@@ -2,15 +2,16 @@
 .container-fluid
   .navbar
     .navbar-inner
-      a.brand Hampsters
+      linkTo "index" class="brand" | Hampsters
       ul.nav
-        li.active
-          a Home
-        li
-          / linkTo "one"
-        li
-          a Link
+        linkTo "index" tagName="li"
+          a href="{{view.href}}"
+            | Home
+        linkTo "about" tagName="li"
+          a href="{{view.href}}"
+            | About
 
-  p
-    | Find me in <code>app/templates/application.emblem</code>
-    = outlet
+  p.alert
+    | Main application template Find me in <code>app/templates/application.emblem</code>
+
+  #page= outlet

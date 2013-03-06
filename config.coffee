@@ -36,4 +36,17 @@ exports.config =
 
     templates:
       precompile: true
+      root: 'app/templates'
       joinTo: 'javascripts/app.js' : /^app/
+      defaultExtension: 'emblem'
+      paths:
+        # If you don't specify jquery and ember there,
+        # raw (non-Emberized) Handlebars templates will be compiled.
+        jquery: 'vendor/scripts/jquery-1.9.0.min.js'
+        ember: 'vendor/scripts/ember-latest.js'
+        handlebars: 'vendor/scripts/handlebars-1.0.rc.3.js'
+        emblem: 'vendor/scripts/emblem.js'
+
+  conventions:
+    ignored: -> false
+
