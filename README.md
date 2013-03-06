@@ -9,7 +9,7 @@ And now I have it! Muwahahaah.
 
 - [CoffeeScript](http://coffeescript.org/)
 - [Stylus](http://learnboost.github.com/stylus/)
-- [Handlebars](http://handlebarsjs.com/)
+- [Emblem.js](http://emblemjs.com/)
 
 ## Bonus Features
 
