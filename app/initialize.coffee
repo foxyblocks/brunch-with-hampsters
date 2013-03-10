@@ -45,6 +45,10 @@ require 'templates/_well'
 #// Router
 #/////////////////////////////////
 
+App.Router.reopen(
+  location: 'history'
+)
+
 App.Router.map ->
   @route "about", path: "/about"
   @route "index", path: "/"
