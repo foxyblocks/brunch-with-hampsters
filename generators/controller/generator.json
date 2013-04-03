@@ -3,8 +3,5 @@
     "from": "controller.coffee.hbs",
     "to": "app/controllers/{{name}}.coffee"
   }],
-  "dependencies": [{
-    "name": "controller_test",
-    "params": "{{name}}"
-  }]
+  "dependencies": []
 }
