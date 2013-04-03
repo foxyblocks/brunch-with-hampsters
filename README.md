@@ -38,14 +38,13 @@ or
 
 ## Generators
 
-There are some helpful generators to get you started using the nifty
-[saffolt](https://github.com/paulmillr/scaffolt) library.
+There are some helpful generators to get you started.
 
 First install scaffolt
 
     npm install -g scaffolt
 
-Calling `scaffolt controller Corn` will make a new controller at
+Calling `scaffolt controller corn` will make a new controller at
 app/controllers/corn.coffee
 
     module.exports = CornController = Em.ObjectController.extend
@@ -53,8 +52,7 @@ app/controllers/corn.coffee
 
 The following generators are supported out of the box:
 
-- Controller (T)
-- ControllerTest
+- Controller
 - Model (T)
 - ModelTest
 - Style
