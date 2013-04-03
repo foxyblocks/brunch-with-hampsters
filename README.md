@@ -38,25 +38,35 @@ or
 
 ## Generators
 
-Use the generators to get you started.
+There are some helpful generators to get you started using the nifty
+[saffolt](https://github.com/paulmillr/scaffolt) library.
 
-- Controller *
-- ControllerTest
-- Model *
-- ModelTest
-- Style
-- Template
-- View *
-- ViewTest
+First install scaffolt
 
-_* Denotes a generator that also generates it's own test file._
+    npm install -g scaffolt
 
-
-Calling `brunch generate controller Corn` will make a file in
+Calling `scaffolt controller Corn` will make a new controller at
 app/controllers/corn.coffee
 
     module.exports = CornController = Em.ObjectController.extend
       content: null
+
+The following generators are supported out of the box:
+
+- Controller (T)
+- ControllerTest
+- Model (T)
+- ModelTest
+- Style
+- Template
+- View (T)
+- ViewTest
+
+_(T) Denotes a generator that also generates it's own test file._
+
+All the generators live inside the `/generators` directory. They are easily
+customizable and you can quickly create your own. See the [saffolt](https://github.com/paulmillr/scaffolt) for more information.
+
 
 ##Testing
 
