@@ -77,7 +77,7 @@ visit [localhost:3333/test/](http://localhost:3333/test/). This works with
 autoreload.
 
 ## Kudos
-This begun started as a frankenmoster of my favorite parts of
+This started as a frankenmoster of my favorite parts of
 [elving/brunch-with-hipsters](http://github.com/elving/brunch-with-hipsters)
 and [charlesjolley/ember-brunch](http://github.com/elving/charlesjolley/ember-brunch)
 
