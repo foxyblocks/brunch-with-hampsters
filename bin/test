@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 
+export PATH="node_modules/.bin:$PATH"
+
 brunch build && mocha-phantomjs public/test/index.html
