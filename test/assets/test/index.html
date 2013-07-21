@@ -13,6 +13,7 @@
   <script src="javascripts/test.js"></script>
   <script>
   $(function() {
+    require('test/initialize-test')
     if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
     else { mocha.run(); }
   });
@@ -20,5 +21,6 @@
 </head>
 <body>
   <div id="mocha"></div>
+  <div id="mocha-app-body"></div>
 </body>
 </html>
