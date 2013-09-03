@@ -20,7 +20,7 @@ exports.config =
         before: [
           'vendor/scripts/console-helper.js'
           'vendor/scripts/jquery-1.9.1.js'
-          'vendor/scripts/handlebars-1.0.0-rc.4.js'
+          'vendor/scripts/handlebars.js'
           'vendor/scripts/ember-latest.js'
           'vendor/scripts/ember-data-latest.js'
           'vendor/scripts/bootstrap.js'
@@ -44,7 +44,7 @@ exports.config =
         # raw (non-Emberized) Handlebars templates will be compiled.
         jquery: 'vendor/scripts/jquery-1.9.1.js'
         ember: 'vendor/scripts/ember-latest.js'
-        handlebars: 'vendor/scripts/handlebars-1.0.0-rc.4.js'
+        handlebars: 'vendor/scripts/handlebars.js'
         emblem: 'vendor/scripts/emblem.js'
 
   conventions:
