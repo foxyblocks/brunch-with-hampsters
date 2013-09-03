@@ -1,9 +1,10 @@
 /! application
-.container-fluid
-  .navbar
-    .navbar-inner
-      linkTo "index" class="brand" | Hampsters
-      ul.nav
+.container
+  nav.navbar.navbar-default
+    .navbar-header
+      linkTo "index" class="navbar-brand" | Hampsters
+    .collapse.navbar-collapse
+      ul.nav.navbar-nav
         linkTo "index" tagName="li"
           a href="{{view.href}}"
             | Home
