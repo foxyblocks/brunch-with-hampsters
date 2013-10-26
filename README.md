@@ -23,7 +23,7 @@ And now I have it! Muwahahaah.
 
 ## Getting started
 
-    brunch new <appname> --skeleton https://github.com/wordofchristian/brunch-with-hampsters
+    brunch new https://github.com/wordofchristian/brunch-with-hampsters [optional-output-dir]
     brunch w -s
 
 or
