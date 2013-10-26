@@ -14,7 +14,7 @@ And now I have it! Muwahahaah.
 ## Bonus Features
 
 - [Swag v0.2.1](https://github.com/elving/swag)
-- [Font Awesome v3.0](https://github.com/FortAwesome/Font-Awesome)
+- [Font Awesome v4.0](https://github.com/FortAwesome/Font-Awesome)
 - [Modernizr v2.6.2](https://github.com/Modernizr/Modernizr)
 - [Brunch Auto-Reload v1.3.2](https://github.com/brunch/auto-reload-brunch)
 - [HTML5 Boilerplate v3.0.0](https://github.com/h5bp/html5-boilerplate)
@@ -23,7 +23,7 @@ And now I have it! Muwahahaah.
 
 ## Getting started
 
-    brunch new <appname> --skeleton https://github.com/wordofchristian/brunch-with-hampsters
+    brunch new https://github.com/wordofchristian/brunch-with-hampsters [optional-output-dir]
     brunch w -s
 
 or
